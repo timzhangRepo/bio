@@ -11,7 +11,7 @@ export default function BioPage() {
       padding: "4rem 1rem",
       lineHeight: 1.8
     }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>About Me</h1>
+      <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>Hi, I am Tim</h1>
       <p>
         I currently work at an investment bank in Salt Lake City, Utah, where I focus on
         full-stack development. I hold a master’s degree in computer science from the
