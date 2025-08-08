@@ -40,3 +40,14 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Mobile-friendly defaults */
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent long words/URLs from overflowing on small screens */
+.prose, body, main, p, li {
+  overflow-wrap: anywhere;
+}
