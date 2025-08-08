@@ -8,20 +8,13 @@ export type Post = {
 
 const posts: Post[] = [
   {
-    slug: "hello-world",
-    title: "Hello, world",
-    date: "2025-01-01",
-    summary: "Kicking off my new blog with a short hello.",
+    slug: "using-cursor-to-build-my-site",
+    title: "Using Cursor to build my personal site",
+    date: "2025-08-07",
+    summary:
+      "Notes on using Cursor to create my personal site—fast to start, a few hiccups, and plans to iterate.",
     content:
-      "Welcome to my blog! This is a minimal placeholder post to get things started. I will share notes about projects, ideas, and learnings here.",
-  },
-  {
-    slug: "second-post",
-    title: "Another day, another note",
-    date: "2025-02-10",
-    summary: "A small reflection and a few useful links.",
-    content:
-      "Here is a second placeholder post with a bit more text. Over time, I may migrate to MDX or a CMS, but for now simple in-memory posts keep things intentionally minimal.",
+      "This is about using Cursor to create my personal site. Previously, when I helped a friend in Hollywood build his site, it took about a week. Now I can get it done in just a couple of hours. I did run into a few issues—like noticing that Cursor was using inline styles instead of styled components, and it got stuck in a loop when I tried to change that. Also, there was no instruction for it to create a black background, and it ended up looking okay but not quite what I wanted. I’m still figuring out if it can produce a really nice, industry-standard UI. It’s definitely fast for starting projects, and I’ll do more experiments with it alongside IntelliJ as I update my site. This is the start of my journey.",
   },
 ];
 
